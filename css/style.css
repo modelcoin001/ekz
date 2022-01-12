@@ -1,0 +1,37 @@
+.layout {
+width: 980px; margin: auto;
+position: relative;
+}
+.sidebar, .content { position: absolute; }
+.sidebar {
+background: #C6DD7D;
+width: 180px;
+}
+.content {
+background: #F4ECCE;
+left: 180px;
+width: 800px;
+padding:20px;
+}
+
+h1, h2{
+    margin-left: 10px;
+}
+
+.post{
+    margin:20px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 500;
+    color:black;
+    text-align: center;
+}
+
+.post_content{
+    font-size: 18px;
+    text-indent: 20px;
+}
